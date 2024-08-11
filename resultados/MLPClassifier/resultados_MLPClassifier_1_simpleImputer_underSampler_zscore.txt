@@ -1,0 +1,43 @@
+DATASET = TIANGUA (A368) | CLASSIFICADOR = MLPClassifier | METODO = simpleImputer_underSampler_zscore
+PARAMETROS: max_iter= 1000 | tol = 0.00001 | hidden_layer_sizes=(8, 8) | solver = adam | activation = relu
+
+RODADA = 1
+Média de acerto = 81.81818181818183
+
+RODADA = 2
+Média de acerto = 85.60606060606061
+
+RODADA = 3
+Média de acerto = 84.21717171717171
+
+RODADA = 4
+Média de acerto = 84.97474747474747
+
+RODADA = 5
+Média de acerto = 84.0909090909091
+
+RODADA = 6
+Média de acerto = 84.84848484848484
+
+RODADA = 7
+Média de acerto = 83.96464646464646
+
+RODADA = 8
+Média de acerto = 84.21717171717171
+
+RODADA = 9
+Média de acerto = 86.23737373737373
+
+RODADA = 10
+Média de acerto = 83.20707070707071
+
+Média Final = 84.3181818181818
+Menor média de acerto = 81.81818181818183
+Maior média de acerto = 86.23737373737373
+Mediana média de acerto = 84.21717171717171
+Desvio Padrão = 1.1720001399870967
+
+Matriz de Confusão:
+    0        1
+0  318.7   71.0
+1  53.2   349.1

@@ -1,0 +1,43 @@
+DATASET = TIANGUA (A368) | CLASSIFICADOR = SVM | METODO = simpleImputer_underSampler_zscore
+PARAMETROS: kernel:linear | C=1.0
+
+RODADA = 1
+Média de acerto = 83.58585858585859
+
+RODADA = 2
+Média de acerto = 81.43939393939394
+
+RODADA = 3
+Média de acerto = 83.96464646464646
+
+RODADA = 4
+Média de acerto = 82.7020202020202
+
+RODADA = 5
+Média de acerto = 82.57575757575758
+
+RODADA = 6
+Média de acerto = 82.7020202020202
+
+RODADA = 7
+Média de acerto = 84.21717171717171
+
+RODADA = 8
+Média de acerto = 83.83838383838383
+
+RODADA = 9
+Média de acerto = 81.81818181818183
+
+RODADA = 10
+Média de acerto = 82.7020202020202
+
+Média Final = 82.95454545454545
+Menor média de acerto = 81.43939393939394
+Maior média de acerto = 84.21717171717171
+Mediana média de acerto = 82.7020202020202
+Desvio Padrão = 0.8784104611578814
+
+Matriz de Confusão:
+    0        1
+0  303.3   91.2
+1  43.8   353.7

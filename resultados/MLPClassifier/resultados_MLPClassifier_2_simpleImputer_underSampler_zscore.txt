@@ -1,0 +1,43 @@
+DATASET = TIANGUA (A368) | CLASSIFICADOR = MLPClassifier | METODO = simpleImputer_underSampler_zscore
+PARAMETROS: max_iter= 2000 | tol = 0.00001 | hidden_layer_sizes=(8, 8) | solver = sgd | activation = logistic
+
+RODADA = 1
+Média de acerto = 83.33333333333334
+
+RODADA = 2
+Média de acerto = 84.21717171717171
+
+RODADA = 3
+Média de acerto = 83.45959595959596
+
+RODADA = 4
+Média de acerto = 81.56565656565657
+
+RODADA = 5
+Média de acerto = 84.21717171717171
+
+RODADA = 6
+Média de acerto = 82.95454545454545
+
+RODADA = 7
+Média de acerto = 82.82828282828282
+
+RODADA = 8
+Média de acerto = 82.44949494949495
+
+RODADA = 9
+Média de acerto = 82.57575757575758
+
+RODADA = 10
+Média de acerto = 81.56565656565657
+
+Média Final = 82.91666666666667
+Menor média de acerto = 81.56565656565657
+Maior média de acerto = 84.21717171717171
+Mediana média de acerto = 82.89141414141415
+Desvio Padrão = 0.8857302983482592
+
+Matriz de Confusão:
+    0        1
+0  309.3   86.1
+1  49.2   347.4

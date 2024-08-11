@@ -1,0 +1,43 @@
+DATASET = TIANGUA (A368) | CLASSIFICADOR = Random_Forest | METODO = simpleImputer_underSampler_zscore
+PARAMETROS: n_estimators: 40 | criterion = entropy
+
+RODADA = 1
+Média de acerto = 83.83838383838383
+
+RODADA = 2
+Média de acerto = 81.6919191919192
+
+RODADA = 3
+Média de acerto = 81.81818181818183
+
+RODADA = 4
+Média de acerto = 81.56565656565657
+
+RODADA = 5
+Média de acerto = 82.82828282828282
+
+RODADA = 6
+Média de acerto = 83.96464646464646
+
+RODADA = 7
+Média de acerto = 83.71212121212122
+
+RODADA = 8
+Média de acerto = 84.34343434343434
+
+RODADA = 9
+Média de acerto = 84.72222222222221
+
+RODADA = 10
+Média de acerto = 83.58585858585859
+
+Média Final = 83.2070707070707
+Menor média de acerto = 81.56565656565657
+Maior média de acerto = 84.72222222222221
+Mediana média de acerto = 83.6489898989899
+Desvio Padrão = 1.0963784518228454
+
+Matriz de Confusão:
+    0        1
+0  317.8   76.5
+1  56.5   341.2

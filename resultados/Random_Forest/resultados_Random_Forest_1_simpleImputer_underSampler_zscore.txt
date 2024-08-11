@@ -1,0 +1,43 @@
+DATASET = TIANGUA (A368) | CLASSIFICADOR = Random_Forest | METODO = simpleImputer_underSampler_zscore
+PARAMETROS: n_estimators: 20 | criterion = gini
+
+RODADA = 1
+Média de acerto = 81.94444444444444
+
+RODADA = 2
+Média de acerto = 81.94444444444444
+
+RODADA = 3
+Média de acerto = 82.57575757575758
+
+RODADA = 4
+Média de acerto = 82.07070707070707
+
+RODADA = 5
+Média de acerto = 83.71212121212122
+
+RODADA = 6
+Média de acerto = 80.17676767676768
+
+RODADA = 7
+Média de acerto = 81.31313131313132
+
+RODADA = 8
+Média de acerto = 82.1969696969697
+
+RODADA = 9
+Média de acerto = 82.1969696969697
+
+RODADA = 10
+Média de acerto = 83.96464646464646
+
+Média Final = 82.20959595959597
+Menor média de acerto = 80.17676767676768
+Maior média de acerto = 83.96464646464646
+Mediana média de acerto = 82.1338383838384
+Desvio Padrão = 1.0280135237037806
+
+Matriz de Confusão:
+    0        1
+0  322.7   76.9
+1  64.0   328.4
